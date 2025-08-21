@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['T1', 'T2', 'T3', 'T4']
+
+roboflow:
+  workspace: lbd
+  project: center-hkmfr
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/lbd/center-hkmfr/dataset/6
